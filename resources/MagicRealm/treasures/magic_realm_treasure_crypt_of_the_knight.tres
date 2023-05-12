@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://MagicRealmModule/scripts/src/MagicRealm/CustomResources/MagicRealmTreasureResource.cs" type="Script" id=1]
+[ext_resource path="res://MagicRealmModule/resources/MagicRealm/treasure_types/magic_realm_treasure_type_small.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+Title = "MAGIC_REALM_TREASURE_CRYPT_OF_THE_KNIGHT"
+DisplayName = "CRYPT OF THE KNIGHT"
+Fame = 0
+FameGroup = null
+FamePrice = 0
+IsTreasureWithinTreasure = true
+MagicColour = null
+MagicType = null
+Notoriety = 0
+Price = 0
+Type = ExtResource( 2 )
+Weight = null
+Description = PoolStringArray(
+	"Crypt of a fallen knight"
+)

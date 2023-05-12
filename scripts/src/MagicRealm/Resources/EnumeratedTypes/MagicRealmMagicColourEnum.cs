@@ -1,0 +1,11 @@
+namespace MagicRealm.Resources.EnumeratedTypes
+{
+	public enum MagicRealmMagicColourEnum
+	{
+		MAGIC_REALM_MAGIC_COLOUR_BLACK, 
+		MAGIC_REALM_MAGIC_COLOUR_GOLD, 
+		MAGIC_REALM_MAGIC_COLOUR_GREY, 
+		MAGIC_REALM_MAGIC_COLOUR_PURPLE, 
+		MAGIC_REALM_MAGIC_COLOUR_WHITE
+	}
+}

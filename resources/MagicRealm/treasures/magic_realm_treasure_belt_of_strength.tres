@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://MagicRealmModule/scripts/src/MagicRealm/CustomResources/MagicRealmTreasureResource.cs" type="Script" id=1]
+[ext_resource path="res://MagicRealmModule/resources/MagicRealm/treasure_types/magic_realm_treasure_type_large.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+Title = "MAGIC_REALM_TREASURE_BELT_OF_STRENGTH"
+DisplayName = "BELT OF STRENGTH:"
+Fame = 3
+FameGroup = null
+FamePrice = 0
+IsTreasureWithinTreasure = false
+MagicColour = null
+MagicType = null
+Notoriety = 6
+Price = 16
+Type = ExtResource( 2 )
+Weight = null
+Description = PoolStringArray(
+	"The BELT OF STRENGTH alters the strength of its owner's MOVE, FIGHT, DUCK and BERSERK actions (their MAGIC actions are not affected). The asterisks on each action defines its strength: each action with two asterisks has Tremendous strength, each action with one asterisk has Heavy strength, and each action with no asterisks has Medium strength."
+)

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://MagicRealmModule/scripts/src/MagicRealm/CustomResources/MagicRealmCounterActionResource.cs" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+Title = "MAGIC_REALM_COUNTER_ACTION_BERSERK"
+DisplayName = "Berserk"
+MagicRealmCounterActionEnum = 0

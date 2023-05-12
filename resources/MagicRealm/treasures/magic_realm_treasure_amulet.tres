@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://MagicRealmModule/scripts/src/MagicRealm/CustomResources/MagicRealmTreasureResource.cs" type="Script" id=1]
+[ext_resource path="res://MagicRealmModule/resources/MagicRealm/treasure_types/magic_realm_treasure_type_small.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+Title = "MAGIC_REALM_TREASURE_AMULET"
+DisplayName = "AMULET"
+Fame = 0
+FameGroup = null
+FamePrice = 0
+IsTreasureWithinTreasure = false
+MagicColour = null
+MagicType = null
+Notoriety = 0
+Price = 5
+Type = ExtResource( 2 )
+Weight = null
+Description = PoolStringArray(
+	"The AMULET can break one Curse on one character. Other characters and other Curses are not affected.",
+	"When used against a spell, the AMULET functions like a spell breaking spell. It releases some or all of the spell's targets from the spell. It can be used against a spell only if the spell already exists at the moment the AMULET is activated - it cannot affect a spell that is in the process of being cast. The AMULET affects only one spell - duplicates of the spell are not affected."
+)

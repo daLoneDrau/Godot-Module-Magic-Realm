@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://MagicRealmModule/scripts/src/MagicRealm/CustomResources/MagicRealmWeaponTypeResource.cs" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+Title = "MAGIC_REALM_WEAPON_TYPE_STRIKING"
+DisplayName = "Striking"
+MagicRealmWeaponTypeEnum = 1

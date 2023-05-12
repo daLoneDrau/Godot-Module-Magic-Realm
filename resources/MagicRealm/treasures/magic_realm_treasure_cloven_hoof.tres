@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://MagicRealmModule/scripts/src/MagicRealm/CustomResources/MagicRealmTreasureResource.cs" type="Script" id=1]
+[ext_resource path="res://MagicRealmModule/resources/MagicRealm/magic_colours/magic_realm_magic_colour_black.tres" type="Resource" id=2]
+[ext_resource path="res://MagicRealmModule/resources/MagicRealm/treasure_types/magic_realm_treasure_type_great.tres" type="Resource" id=3]
+
+[resource]
+script = ExtResource( 1 )
+Title = "MAGIC_REALM_TREASURE_CLOVEN_HOOF"
+DisplayName = "CLOVEN HOOF"
+Fame = -20
+FameGroup = null
+FamePrice = 0
+IsTreasureWithinTreasure = false
+MagicColour = ExtResource( 2 )
+MagicType = null
+Notoriety = 40
+Price = 4
+Type = ExtResource( 3 )
+Weight = null
+Description = PoolStringArray(
+	"The CLOVEN HOOF is an Enchanted item that affects every character in its clearing. Whenever a character rolls on any table while they are in the same clearing with the CLOVEN HOOF, they add one to their result. The CLOVEN HOOF is also a source of BLACK color magic to everyone in its clearing."
+)

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://MagicRealmModule/scripts/src/MagicRealm/CustomResources/MagicRealmTreasureResource.cs" type="Script" id=1]
+[ext_resource path="res://MagicRealmModule/resources/MagicRealm/treasure_types/magic_realm_treasure_type_small.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+Title = "MAGIC_REALM_TREASURE_ANCIENT_TELESCOPE"
+DisplayName = "ANCIENT TELESCOPE"
+Fame = 0
+FameGroup = null
+FamePrice = 0
+IsTreasureWithinTreasure = false
+MagicColour = null
+MagicType = null
+Notoriety = 0
+Price = 5
+Type = ExtResource( 2 )
+Weight = null
+Description = PoolStringArray(
+	"The ANCIENT TELESCOPE gives its owner an extra phase that they can use to PEER from one mountain clearing to any other mountain clearing.",
+	"It gives them one extra phase that they can use to do the enhanced PEER activity. This must be done in a mountain clearing."
+)
